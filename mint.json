@@ -1,0 +1,224 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Orbition Documentation",
+  "logo": {
+    "dark": "/logo/dark.png",
+    "light": "/logo/light.png"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373",
+    "anchors": {
+      "from": "#0D9373",
+      "to": "#07C983"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:build@orbitionlabs.io"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Portal",
+    "url": "https://portal.orbition.network"
+  },
+  "anchors": [
+    {
+      "name": "Community",
+      "icon": "telegram",
+      "url": "https://t.me/Orbition_Network/682450"
+    },
+    {
+      "name": "Status",
+      "icon": "signal-bars",
+      "url": "https://status.orbition.network/status/orbition"
+    },
+    {
+      "name": "Blog",
+      "icon": "newspaper",
+      "url": "https://orbitionnetwork.medium.com/"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "introduction",
+        "development",
+        "quickstart"
+      ]
+    },
+    {
+      "group": "Orbition Network",
+      "pages": [
+        "orbition/whitepaper",
+        "orbition/why-orbition",
+        "orbition/zkevm"
+      ]
+    },
+    {
+      "group": "Developers",
+      "pages": [
+        "developers/faucet",
+        "developers/make-tx",
+        "developers/bridge-evm",
+        "developers/stake",
+        "developers/monitor"
+      ]
+    },
+    {
+      "group": "Validators",
+      "pages": [
+        "validators/introduction",
+        "validators/delegate",
+        "validators/rpc-node",
+        "validators/system-tuning",
+        "validators/setup-validator",
+        "validators/setup-rpc",
+        "validators/monitor"
+      ]
+    },
+    {
+      "group": "Ecosystem",
+      "pages": [
+        "products/orbitwallet",
+        "products/portal",
+        "products/wallet",
+        "products/bridge",
+        "products/swap",
+        "products/names",
+        "products/filesystem"
+      ]
+    },
+    {
+      "group": "Migrate",
+      "pages": [
+        "migrate/introduction"
+      ]
+    },
+    {
+      "group": "Courses",
+      "pages": [
+        {
+          "group": "Intro to Orbition Native Chain",
+          "pages": [
+            "courses/intro-to-solana/getting-started",
+            "courses/intro-to-solana/intro-to-cryptography",
+            "courses/intro-to-solana/intro-to-reading-data",
+            "courses/intro-to-solana/intro-to-writing-data",
+            "courses/intro-to-solana/intro-to-custom-onchain-programs",
+            "courses/intro-to-solana/interact-with-wallets"
+          ]
+        },
+        {
+          "group": "Tokens and NFTs on Orbition Native",
+          "pages": [
+            "courses/tokens-and-nfts/token-program",
+            "courses/tokens-and-nfts/nfts-with-metaplex",
+            "courses/tokens-and-nfts/token-program-advanced"
+          ]
+        },
+        {
+          "group": "Onchain program development",
+          "pages": [
+            "courses/onchain-development/intro-to-onchain",
+            "courses/onchain-development/local-setup",
+            "courses/onchain-development/intro-to-anchor",
+            "courses/onchain-development/intro-to-anchor-frontend",
+            "courses/onchain-development/anchor-pdas",
+            "courses/onchain-development/anchor-cpi"
+          ]
+        },
+        {
+          "group": "Connecting to offchain data",
+          "pages": [
+            "courses/connecting-to-offchain-data/oracles",
+            "courses/connecting-to-offchain-data/verifiable-randomness-functions"
+          ]
+        },
+        {
+          "group": "Using the Token Extensions program",
+          "pages": [
+            "courses/using-token-extensions/intro-to-token-extensions-program",
+            "courses/using-token-extensions/token-extensions-in-the-client",
+            "courses/using-token-extensions/token-extensions-onchain"
+          ]
+        },
+        {
+          "group": "Token Extensions for Mints",
+          "pages": [
+            "courses/token-extensions-for-mints/token-extensions-metadata",
+            "courses/token-extensions-for-mints/non-transferable-token",
+            "courses/token-extensions-for-mints/transfer-fee",
+            "courses/token-extensions-for-mints/close-mint",
+            "courses/token-extensions-for-mints/default-account-state"
+          ]
+        },
+        {
+          "group": "Program Optimization",
+          "pages": [
+            "courses/program-optimization/program-configuration",
+            "courses/program-optimization/rust-macros",
+            "courses/program-optimization/lookup-tables"
+          ]
+        },
+        {
+          "group": "State Compression",
+          "pages": [
+            "courses/state-compression/compressed-nfts",
+            "courses/state-compression/generalized-state-compression"
+          ]
+        },
+        {
+          "group": "Program Security",
+          "pages": [
+            "courses/program-security/security-intro",
+            "courses/program-security/signer-auth",
+            "courses/program-security/owner-checks",
+            "courses/program-security/account-data-matching",
+            "courses/program-security/reinitialization-attacks",
+            "courses/program-security/duplicate-mutable-accounts",
+            "courses/program-security/type-cosplay",
+            "courses/program-security/arbitrary-cpi",
+            "courses/program-security/bump-seed-canonicalization",
+            "courses/program-security/closing-accounts",
+            "courses/program-security/pda-sharing"
+          ]
+        },
+ 
+        {
+          "group": "Orbition Mobile Development",
+          "pages": [
+            "courses/mobile/intro-to-solana-mobile",
+            "courses/mobile/mwa-deep-dive",
+            "courses/mobile/solana-mobile-dApps-with-expo"
+          ]
+        },
+      
+        {
+          "group": "Native onchain program development",
+          "pages": [
+            "courses/native-onchain-development/hello-world-program",
+            "courses/native-onchain-development/deserialize-instruction-data",
+            "courses/native-onchain-development/program-state-management",
+            "courses/native-onchain-development/program-security",
+            "courses/native-onchain-development/program-derived-addresses",
+            "courses/native-onchain-development/cross-program-invocations",
+            "courses/native-onchain-development/serialize-instruction-data-frontend",
+            "courses/native-onchain-development/deserialize-custom-data-frontend",
+            "courses/native-onchain-development/paging-ordering-filtering-data-frontend"
+          ]
+        }
+        
+      ]
+    }
+  ],
+  "footerSocials": {
+    "x": "https://x.com/OrbitionNetwork",
+    "github": "https://github.com/orbition-network",
+    "linkedin": "https://www.linkedin.com/company/orbition-network"
+  }
+}

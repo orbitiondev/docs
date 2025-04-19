@@ -1,0 +1,52 @@
+---
+title: 'Faucet'
+icon: "faucet"
+---
+
+In this section we will tell how you can get free testnet OBNs on Orbition Testnet for testing / building dApps:
+
+<CardGroup>
+
+  <Card title="Native OBN" icon="terminal" href="#airdrop-on-native-chain">
+   Native currency of Orbition Native chain
+  </Card>
+
+  <Card title="EVM OBN" icon="link" href="#airdrop-on-orbition-network-evm-testnet">
+   Native currency of EVM layer of Orbition Network
+  </Card>
+
+</CardGroup>
+
+## Prerequisites
+<CardGroup cols={1}>
+
+  <Card title="Command Line Interface" icon="terminal" href="/quickstart">
+   Orbition CLI should be installed for claiming tokens on Native Chain
+  </Card>
+
+</CardGroup>
+
+## Airdrop on Native Chain
+To claim free testnet tokens on Orbition Network Testnet Native chain
+
+Set Orbition Network Testnet RPC url in the Orbition config
+```bash
+orbition config set --url https:/rpc-testnet.orbition.network
+```
+
+```bash
+orbition airdrop 10
+```
+
+You can also bridge these tokens to EVM Testnet
+
+```bash
+orbition evm transfer-to-evm 0xf50860558A66C7cF0C5bbE44C8f2683A48C22189 10
+```
+
+## Airdrop on Orbition Network EVM (Testnet)
+You can not airdrop EVM tokens directly from Orbition CLI but you can bridge them by requesting them on [Native Chain](#airdrop-on-native-chain)
+
+You can use [Testnet Faucet UI](https://faucet.orbition.network) for claiming Testnet tokens by entering your EVM Address
+
+<img height="200" src="/images/faucet/1.png" />
